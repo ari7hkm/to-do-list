@@ -1,0 +1,45 @@
+{% extends '_base.html' %}
+
+{% block title %}
+    | New Task
+{% endblock title %}
+
+{% block content %}
+
+
+    <div class="header-bar">
+        <a href="{% url 'tasks' %}">&#8592; Back</a>
+    </div>
+
+
+    <div class="card-body">
+
+        <form action="" method="POST">
+            {% csrf_token %}
+            {% comment %} {{form.as_p}} {% endcomment %}
+
+            <label for="">
+                {{form.title.label}}
+            </label>
+            {{form.title}}
+
+            <label for="">
+                {{form.descrption.label}}
+            </label>
+            {{form.descrption}}
+
+            <div>
+                <label for="">
+                    {{form.complete.label}} {{form.complete}}
+                </label>
+            </div>
+
+            <input class="button" type="submit" value="Submit" style="margin-top: 10px">
+        </form>
+
+    </div>
+
+
+
+
+{% endblock content %}

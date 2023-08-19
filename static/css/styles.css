@@ -1,0 +1,129 @@
+body {
+    background-color: #1c1c1c;
+    padding-top: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+        font-family: 'Lato', sans-serif;
+}
+
+a, p {
+    color: lightslategrey;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #121111;
+    -webkit-box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+    box-shadow: 2px 2px 13px -4px rgba(0, 0, 0, 0.21);
+}
+
+.header-bar {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    background: linear-gradient(90deg, #e33535 0%, #d02617 43%, #df1c0a 100%);
+}
+
+.header-bar a {
+    color: #1c1c1c;
+}
+
+.task-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #121111;
+    border-top: 1px solid rgb(226, 226, 226);
+}
+
+.task-title {
+    display: flex;
+    color: #cc1616;
+}
+
+.task-title a {
+    text-decoration: none;
+    color: #a8aaab;
+    margin-left: 10px;
+}
+
+.task-complete-icon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(105, 192, 105);
+    border-radius: 50%;
+}
+
+.task-incomplete-icon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(216, 216, 216);
+    border-radius: 50%;
+}
+
+.delete-link {
+    text-decoration: none;
+    font-weight: 900;
+    color: #cf4949;
+    font-size: 22px;
+    line-height: 0;
+}
+
+#search-add-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+#add-link {
+    color: #e72e2e;
+    text-decoration: none;
+    font-size: 42px;
+    text-shadow: 1px 1px #862727;
+}
+
+
+input[type=text],
+input[type=password],
+input[type=email],
+textarea {
+    background-color: #050505;
+    border: 1px solid #e63423;
+    border-radius: 5px;
+    padding: 10px;
+    width: 90%;
+    color: #fafafa;
+}
+
+
+label {
+    padding-top: 10px !important;
+    display: block;
+    padding-bottom: 5px;
+    color: #fafafa;
+}
+
+.button {
+    border: 1px solid #ee361e;
+    background-color: #050505;
+    color: #ee361e;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    /* margin-top: 10px; */
+}
+
+.card-body {
+    padding: 20px;
+}
