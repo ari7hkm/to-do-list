@@ -30,5 +30,6 @@ Then run these commands and run the app:
 * Django
 * HTML
 * CSS
+* MySQL
 
 
